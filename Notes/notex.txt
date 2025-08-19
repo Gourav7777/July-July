@@ -1,0 +1,46 @@
+Javascript Variables and Datatypes - 
+https://docs.google.com/document/d/1YnFReQ9KIMVtsYUiPhWDcDIhD7wNgpGrOpOHhhSrQu0/edit?tab=t.0
+
+
+JavaScript Operators & Looping - 
+https://docs.google.com/document/d/1YnFReQ9KIMVtsYUiPhWDcDIhD7wNgpGrOpOHhhSrQu0/edit?tab=t.0
+
+
+JavaScript Strings , Numbers & Functions
+https://docs.google.com/document/d/1wcRIXZ4G6yDX82rv3eJB0egU9IOnhStZOKt85Jthb1I/edit?tab=t.0
+
+
+JavaScript  Global Execution Context & Hoisting
+https://docs.google.com/document/d/1p0V21UWdnQAQ77hKUOuLNBGVPNlkd8r3b_Bi0fwh-Rg/edit?tab=t.0
+
+
+JavaScript Scopes & Closures
+https://docs.google.com/document/d/1KofL4R1S0nXVD5zLaDarwpKksf2ehPTGWu9N3BBsM1g/edit?tab=t.0
+
+
+JavaScript Arrays and Higher Order Functions
+https://docs.google.com/document/d/1IdeucW12lLO4nKUFV9XxYouKOnDjoC2ymLenoI0CC2E/edit?tab=t.0#heading=h.4jvfsari3u4h
+
+
+Objects Classes & Prototypes
+https://docs.google.com/document/d/1RBcINH7fK7e3id15iOokaK_lwLeBD7l6SSRi9r68cP8/edit?tab=t.0
+
+ 
+ 	
+this keyword
+https://docs.google.com/document/d/1s5pbCXEAc0TPh9qobzCFvz-swZ_RjEsKIwZCdq_LdHU/edit?tab=t.0
+
+Introduction to Asynchronous JavaScript
+https://docs.google.com/document/d/1QI5sVLKWIzvz_EWxAKOINcTu53qo1yUCw3scUmLC2Rw/edit?tab=t.0#heading=h.6fui10ctqvpn
+
+
+Asynchronous JavaScript - II
+https://docs.google.com/document/d/1HFUNkisP1KCztycw9AbJUOGH8kipEWMm/edit?tab=t.0
+
+
+Asynchronous JavaScript - III
+https://docs.google.com/document/d/1MuvadIWzNwvLUW51gjslNKj4TOnl9tJc/edit?tab=t.0
+
+
+Intro to DOM & DOM Concepts
+https://docs.google.com/document/d/1xSadgyI3jHUF7eHqvZaAQhh74RhH_Llr/edit?tab=t.0
