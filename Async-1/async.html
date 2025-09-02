@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+
+<script>
+  // console.log(10)
+
+  //   setTimeout(function(){
+
+  //       console.log(30)
+  //   },2000)
+
+  //   console.log(40);
+
+  //   console.log(10)
+
+  //   setTimeout(function(){
+
+  //       console.log(20)
+  //   },5000)
+
+  //    setTimeout(function(){
+
+  //       console.log(30)
+  //   },2000)
+
+  //   console.log(40);
+
+  //  console.log(10)
+
+  //   setTimeout(function(){
+
+  //       console.log(20)
+  //   },1000)
+
+  //   setTimeout(function(){
+
+  //       console.log(30)
+  //   },1000)
+
+  //   console.log(40);
+
+  function boilWater(fun) {
+    console.log("Water starts boiling");
+
+    setTimeout(function () {
+      console.log("hotwater is ready");
+      fun("hotwater");
+    }, 5000);
+  }
+
+  function prepareTea(hotwater, fun) {
+    console.log(`Tea starts preparing with ${hotwater} `);
+
+    setTimeout(function () {
+      console.log("Tea is ready");
+      fun("tea");
+    }, 5000);
+  }
+
+  function serveTea(tea,fun) {
+    console.log(`${tea} is ready to serve`);
+
+    setTimeout(() => {
+      console.log("Served Tea");
+      fun("served tea")
+    }, 2000);
+  }
+
+
+    function hadTea(t){
+
+
+           setTimeout(()=>{
+               
+              console.log(`${t} and had tea`);
+              
+           },3000)
+    }
+  boilWater(function (hotwater) {
+    prepareTea(hotwater, function (tea) {
+      serveTea(tea,function(t){
+        hadTea(t)
+      });
+    });
+  });
+
+
+
+// let id =    setInterval(() => {
+        
+
+//         console.log(10);
+        
+//     }, 2000);
+
+
+
+//        setTimeout(()=>{
+
+//            clearInterval(id)
+//         },6000)
+</script>
