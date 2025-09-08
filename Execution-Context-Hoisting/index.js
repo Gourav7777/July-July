@@ -60,24 +60,3 @@
 
 // a()
 
-// var a =10
-
-
-// console.log(a);
-
-// {
-//     let b = 30
-//     console.log(b);
-    
-// }
-
-
-var a = 50
-function abc(){
-
-
-     console.log(a);
-     
-}
-
-abc()
