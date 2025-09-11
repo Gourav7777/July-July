@@ -65,3 +65,7 @@ https://docs.google.com/document/d/1MuvadIWzNwvLUW51gjslNKj4TOnl9tJc/edit?tab=t.
 
 Intro to DOM & DOM Concepts
 https://docs.google.com/document/d/1xSadgyI3jHUF7eHqvZaAQhh74RhH_Llr/edit?tab=t.0
+
+
+Understanding DOM Concepts
+https://docs.google.com/document/d/15wXD-3fpK7ZXd5lIxptIHhk43MYOuNys/edit?tab=t.0
