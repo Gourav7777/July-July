@@ -1,6 +1,6 @@
 let actualBox = [];
 
-let items;
+// let items;
 fetch("https://dummyjson.com/products")
   .then((res) => {
     return res.json();
@@ -9,7 +9,7 @@ fetch("https://dummyjson.com/products")
     // console.log(data.products);
     if (data.products) {
       actualBox = data.products;
-      items = [...actualBox];
+      // items = [...actualBox];
       console.log(actualBox);
     }
     displayData(data.products);
@@ -36,15 +36,37 @@ function displayData(data) {
 
 const sort = document.getElementById("sort");
 const filterCategory = document.getElementById("filter");
+const searched = document.querySelector("input")
 
+console.log(searched)
 function applyFilters() {
 
 
+  let items = [...actualBox]
+
+
+  // Filter Separate
   if (filterCategory.value) {
     items = items.filter((el) => el.category == filterCategory.value);
   }
   
- else if (sort.value == "low") {
+
+  //  searching 
+
+  if(searched.value){
+
+
+      console.log(searched.value)
+    items = items.filter((el)=>{
+
+
+        //  console.log(el.title.toLowerCase())
+         return el.title.toLowerCase().includes(searched.value.toLowerCase())
+    })
+  }
+
+  // sort separate
+  if (sort.value == "low") {
     items = items.sort((a, b) => a.price - b.price);
 
     console.log(items);
@@ -54,13 +76,14 @@ function applyFilters() {
     console.log(items);
   }
 
-  else{
-    displayData(actualBox);
-    return
-  }
+ 
 
   displayData(items);
 }
+
+
+
+
 
 sort.addEventListener("change", () => {
   applyFilters();
@@ -69,3 +92,16 @@ sort.addEventListener("change", () => {
 filterCategory.addEventListener("change", () => {
   applyFilters();
 });
+
+let timerId;
+searched.addEventListener("input",()=>{
+
+  clearTimeout(timerId)
+
+  timerId= setTimeout(()=>{
+
+    applyFilters()
+  },5000)
+  
+    
+})
